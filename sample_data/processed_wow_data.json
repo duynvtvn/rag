@@ -1,0 +1,188 @@
+[
+  {
+    "id": "WizardDialogKnowledgeTeacher",
+    "text": "Game of Thrones",
+    "labels": [
+      "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It's an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin."
+    ],
+    "chosen_topic": "Game of Thrones",
+    "episode_done": false,
+    "label_candidates": [
+      "no_passages_used no_passages_used",
+      "Game of Thrones Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+      "Game of Thrones It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+      "Game of Thrones The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+      "Game of Thrones Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show."
+    ],
+    "context": [],
+    "knowledge": {
+      "Game of Thrones": [
+        "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+        "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+        "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+        "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show."
+      ]
+    },
+    "title": "Game of Thrones",
+    "checked_sentence": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+    "parent": null,
+    "dialog_id": 0,
+    "turn_id": 0
+  },
+  {
+    "id": "WizardDialogKnowledgeTeacher",
+    "text": "Game of Thrones\nI really love watching Game of Thrones. Do you know anything about this show?",
+    "labels": [
+      "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It's an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin. The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons."
+    ],
+    "chosen_topic": "Game of Thrones",
+    "episode_done": false,
+    "label_candidates": [
+      "no_passages_used no_passages_used",
+      "Game of Thrones Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+      "Game of Thrones It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+      "Game of Thrones The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+      "Game of Thrones Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show.",
+      "HBO HBO is an American premium cable and satellite television network that is owned by Warner Bros. Discovery.",
+      "Fantasy drama Fantasy drama is a subgenre of drama films or television series that incorporates fantasy elements."
+    ],
+    "context": [
+      {
+        "speaker": "apprentice",
+        "text": "I really love watching Game of Thrones. Do you know anything about this show?"
+      }
+    ],
+    "knowledge": {
+      "Game of Thrones": [
+        "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+        "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+        "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+        "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show."
+      ],
+      "HBO": [
+        "HBO is an American premium cable and satellite television network that is owned by Warner Bros. Discovery.",
+        "HBO programming consists primarily of theatrically released motion pictures and original television programs as well as made-for-cable movies, documentaries, occasional comedy, and concert specials."
+      ],
+      "Fantasy drama": [
+        "Fantasy drama is a subgenre of drama films or television series that incorporates fantasy elements.",
+        "These productions feature imaginary worlds, supernatural events, and mythical creatures."
+      ]
+    },
+    "title": "Game of Thrones",
+    "checked_sentence": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+    "parent": 0,
+    "dialog_id": 0,
+    "turn_id": 1
+  },
+  {
+    "id": "WizardDialogKnowledgeTeacher",
+    "text": "Wow, 8 years on air! That's quite a long run. How many seasons did it have?",
+    "labels": [
+      "The series had 8 seasons in total with 73 episodes. The show ran from 2011 to 2019. The first season had 10 episodes, and most subsequent seasons also had 10 episodes each, except for the final two seasons which had fewer episodes."
+    ],
+    "chosen_topic": "Game of Thrones",
+    "episode_done": false,
+    "label_candidates": [
+      "no_passages_used no_passages_used",
+      "Game of Thrones The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+      "Game of Thrones The first season has 10 episodes, most subsequent seasons have 10 episodes each, with the exception of the final two seasons.",
+      "Game of Thrones The seventh season has 7 episodes and the eighth has 6.",
+      "Game of Thrones Game of Thrones has attracted record viewership on HBO and has a broad, active, and international fan base."
+    ],
+    "context": [
+      {
+        "speaker": "apprentice",
+        "text": "I really love watching Game of Thrones. Do you know anything about this show?"
+      },
+      {
+        "speaker": "wizard",
+        "text": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It's an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin. The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+        "title": "Game of Thrones",
+        "checked_sentence": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO."
+      },
+      {
+        "speaker": "apprentice",
+        "text": "Wow, 8 years on air! That's quite a long run. How many seasons did it have?"
+      }
+    ],
+    "knowledge": {
+      "Game of Thrones": [
+        "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+        "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+        "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+        "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show.",
+        "The first season has 10 episodes, most subsequent seasons have 10 episodes each, with the exception of the final two seasons.",
+        "The seventh season has 7 episodes and the eighth has 6.",
+        "Game of Thrones has attracted record viewership on HBO and has a broad, active, and international fan base."
+      ]
+    },
+    "title": "Game of Thrones",
+    "checked_sentence": "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+    "parent": 1,
+    "dialog_id": 0,
+    "turn_id": 2
+  },
+  {
+    "id": "WizardDialogKnowledgeTeacher",
+    "text": "That's really impressive! I heard the show was based on books. Do you know anything about the author?",
+    "labels": [
+      "Yes, the books were written by George R. R. Martin. The series is called 'A Song of Ice and Fire' and Martin is an American novelist and short story writer. He's known for his epic fantasy series and has been working on the books since the 1990s."
+    ],
+    "chosen_topic": "Game of Thrones",
+    "episode_done": true,
+    "label_candidates": [
+      "no_passages_used no_passages_used",
+      "George R. R. Martin George Raymond Richard Martin is an American novelist and short story writer in the fantasy, horror, and science fiction genres.",
+      "George R. R. Martin He is best known for his series of epic fantasy novels, A Song of Ice and Fire, which was adapted into the HBO series Game of Thrones.",
+      "A Song of Ice and Fire A Song of Ice and Fire is a series of epic fantasy novels by American author George R. R. Martin.",
+      "A Song of Ice and Fire The first novel, A Game of Thrones, was published in 1996, and the series now consists of five published novels."
+    ],
+    "context": [
+      {
+        "speaker": "apprentice",
+        "text": "I really love watching Game of Thrones. Do you know anything about this show?"
+      },
+      {
+        "speaker": "wizard",
+        "text": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It's an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin. The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+        "title": "Game of Thrones",
+        "checked_sentence": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO."
+      },
+      {
+        "speaker": "apprentice",
+        "text": "Wow, 8 years on air! That's quite a long run. How many seasons did it have?"
+      },
+      {
+        "speaker": "wizard",
+        "text": "The series had 8 seasons in total with 73 episodes. The show ran from 2011 to 2019. The first season had 10 episodes, and most subsequent seasons also had 10 episodes each, except for the final two seasons which had fewer episodes.",
+        "title": "Game of Thrones",
+        "checked_sentence": "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons."
+      },
+      {
+        "speaker": "apprentice",
+        "text": "That's really impressive! I heard the show was based on books. Do you know anything about the author?"
+      }
+    ],
+    "knowledge": {
+      "Game of Thrones": [
+        "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+        "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin."
+      ],
+      "George R. R. Martin": [
+        "George Raymond Richard Martin is an American novelist and short story writer in the fantasy, horror, and science fiction genres.",
+        "He is best known for his series of epic fantasy novels, A Song of Ice and Fire, which was adapted into the HBO series Game of Thrones.",
+        "Martin was born on September 20, 1948, in Bayonne, New Jersey."
+      ],
+      "A Song of Ice and Fire": [
+        "A Song of Ice and Fire is a series of epic fantasy novels by American author George R. R. Martin.",
+        "The first novel, A Game of Thrones, was published in 1996, and the series now consists of five published novels.",
+        "Martin has stated that the series will consist of seven novels when complete."
+      ]
+    },
+    "title": "George R. R. Martin",
+    "checked_sentence": "George Raymond Richard Martin is an American novelist and short story writer in the fantasy, horror, and science fiction genres.",
+    "parent": 2,
+    "dialog_id": 0,
+    "turn_id": 3
+  }
+]

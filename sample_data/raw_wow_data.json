@@ -1,0 +1,97 @@
+{
+  "chosen_topic": "Game of Thrones",
+  "persona": "I am a fantasy book enthusiast who loves epic storylines",
+  "wizard_eval": 4,
+  "chosen_topic_passage": [
+    "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+    "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+    "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+    "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show."
+  ],
+  "dialog": [
+    {
+      "speaker": "apprentice",
+      "text": "I really love watching Game of Thrones. Do you know anything about this show?",
+      "retrieved_topics": [
+        "Game of Thrones",
+        "HBO television series",
+        "Fantasy television"
+      ],
+      "retrieved_passages": [
+        {
+          "Game of Thrones": [
+            "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+            "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+            "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons."
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "wizard",
+      "text": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It's an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin. The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+      "retrieved_topics": [
+        "Game of Thrones",
+        "HBO",
+        "David Benioff",
+        "D. B. Weiss",
+        "George R. R. Martin"
+      ],
+      "retrieved_passages": [
+        {
+          "Game of Thrones": [
+            "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO.",
+            "It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+            "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+            "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show."
+          ]
+        }
+      ],
+      "checked_sentence": {
+        "Game of Thrones": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO."
+      },
+      "checked_passage": {
+        "Game of Thrones": "Game of Thrones"
+      }
+    },
+    {
+      "speaker": "apprentice",
+      "text": "Wow, 8 years on air! That's quite a long run. How many seasons did it have?",
+      "retrieved_topics": [
+        "Game of Thrones seasons",
+        "HBO series duration"
+      ],
+      "retrieved_passages": [
+        {
+          "Game of Thrones": [
+            "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+            "The first season has 10 episodes, most subsequent seasons have 10 episodes each, with the exception of the final two seasons."
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "wizard",
+      "text": "The series had 8 seasons in total with 73 episodes. The show ran from 2011 to 2019. The first season had 10 episodes, and most subsequent seasons also had 10 episodes each, except for the final two seasons which had fewer episodes.",
+      "retrieved_topics": [
+        "Game of Thrones seasons",
+        "Game of Thrones episodes"
+      ],
+      "retrieved_passages": [
+        {
+          "Game of Thrones": [
+            "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.",
+            "The first season has 10 episodes, most subsequent seasons have 10 episodes each, with the exception of the final two seasons: the seventh season has 7 episodes and the eighth has 6.",
+            "Game of Thrones has attracted record viewership on HBO and has a broad, active, and international fan base."
+          ]
+        }
+      ],
+      "checked_sentence": {
+        "Game of Thrones": "The series premiered on HBO on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons."
+      },
+      "checked_passage": {
+        "Game of Thrones": "Game of Thrones"
+      }
+    }
+  ]
+}
